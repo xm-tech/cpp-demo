@@ -35,8 +35,7 @@ void Person::output() {
 }
 
 Person::~Person() {
-	cout << "person{name:" << this->name << ", age:" << this->age
-	     << "} recycled\n";
+	cout << "person{name:" << this->name << ", age:" << this->age << "} recycled\n";
 }
 
 int main() {
