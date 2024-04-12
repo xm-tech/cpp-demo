@@ -14,8 +14,7 @@ class Person {
 	Person(string name, int a) {
 		this->name = name;
 		this->age = a;
-		cout << "person{name:" << this->name << ", age:" << this->age
-		     << "} created\n";
+		cout << "person{name:" << this->name << ", age:" << this->age << "} created\n";
 	}
 
 	~Person();
